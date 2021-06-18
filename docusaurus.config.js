@@ -92,13 +92,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/streamocity/docusaurus/edit/main/website/',
+            'https://github.com/streamocity/docusaurus/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/streamocity/docusaurus/edit/main/website/blog/',
+            'https://github.com/streamocity/docusaurus/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
