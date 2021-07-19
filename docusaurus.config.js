@@ -26,7 +26,6 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/streamocity',
           label: 'GitHub',
@@ -62,20 +61,7 @@ module.exports = {
               href: 'https://streamocity.streamo.city/',
             },
           ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/streamocity',
-            },
-          ],
-        },
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Epicode Team. Built with Docusaurus.`,
     },
@@ -89,13 +75,8 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/streamocity/docusaurus/edit/main/',
-        },
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           editUrl:
             'https://github.com/streamocity/docusaurus/edit/main/',
