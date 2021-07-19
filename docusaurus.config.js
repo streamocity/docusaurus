@@ -7,7 +7,7 @@ module.exports = {
   tagline: 'Everyone loves docs',
   url: 'https://docs.streamo.city',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Streamo.city', // Usually your GitHub org/user name.
